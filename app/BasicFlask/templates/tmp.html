@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>home</title>
+</head>
+<body>
+<h1>WELCOME TO HOME.</h1>
+<h2>This is my string {{name}}</h2>
+</br>
+<h3>The dictionary is</br>
+<table border=1>
+{% for key,value in dict1.items() %}
+<tr>
+<th>{{key}}</th>
+<td>{{value}}</td>
+</tr>
+{% endfor %}
+</table>
+</h3>
+</br>
+<h3>The tuple is</br>
+{% for i in tup %}
+{{i}}
+</h3>
+{% endfor %}
+</body>
+</html>

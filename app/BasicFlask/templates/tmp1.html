@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<body>
+<h1>Hi {{ user.username }}</h1>
+</br>
+{% for post in posts %}
+{{ post.author.username }} says: <b>{{ post.body }}</b></br>
+{% endfor %}
+</body>
+</html>
